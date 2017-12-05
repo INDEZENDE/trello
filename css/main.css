@@ -27,6 +27,12 @@ header > #content-search >.search {
   vertical-align: top;
   width: 200px;
 }
+input::placeholder {
+color: white;}
+.add-list{
+  background: #66a4c7;
+
+}
 
  #content-search >.search,  .lupa {
   width: 100px;
@@ -155,4 +161,67 @@ header > #content-search >.search {
 
 .clear {
   clear: both;
+}
+/*Estilos de DOM*/
+.add-list{
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.formulario2 {
+  background: #E5E6E9;
+  display: block;
+  width: 200px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.entrada2 {
+  background: #DBDCDF;
+  display: block;
+  margin: 0;
+  border: 0;
+}
+
+.boton2 {
+  background: #72BF5D;
+  color:white;
+}
+
+.content-Task {
+  background: #E5E6E9;
+  display: block;
+  width: 200px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.cerrar2, .close3 {
+  border: none;
+  color: gray;
+}
+
+.send3{
+background: #72BF5D;
+color: white;
+}
+
+.boxes {
+  height: 60px;
+  width: 93%;
+  text-align: center;
+  color: black;
+
+}
+
+input:focus {
+    background-color: #D8DEDF;
+}
+
+#listas > .content-Task >a >li {
+  background: #EEF2F5;
+  list-style: none;
 }
